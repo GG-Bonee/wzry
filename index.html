@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<!--1.视图标签-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+	<!--加载CSS文件-->
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.0/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+	<!--CSS RESET-->
+	<link rel="stylesheet" href="css/owl-carousel.css">
+	<!--加载图片库-->
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css" />
+	<!--加载JS文件-->
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="bootstrap-4.5.0/dist/js/bootstrap.bundle.min.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="bootstrap-4.5.0/dist/js/bootstrap.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="js/popper.js" type="text/javascript"></script>
+	<title></title>
+
+</head>
+
+<body oncopy="return false">
+	<!--顶部区域-->
+	<div class="container-fluid">
+		<div class="row my-3">
+			<div class="col-lg-6 col-12 text-center">
+				<span class="fa fa-user mx-2 p-1 sp"></span>登录
+				<span class="fa fa-pencil ml-3 mx-2 p-1 sp"></span>注册
+				<span class="fa fa-cart-plus mx-2 p-1 sp"></span>注销
+
+			</div>
+			<div class="col-2"></div>
+			<div class="col-lg-4 col-12 text-center">
+				<span class="fa fa-heart mx-2 p-1 sp"></span>我们的
+				<span class="fa fa-angle-down ml-3 mx-2 p-1 sp"></span>王者荣耀
+
+			</div>
+		</div>
+	</div>
+
+	<!--logo区域-->
+	<div class="container-fluid ws">
+		<div>
+			<ul class="row d-flex flex-sm-column flex-md-row justify-content-center align-items-sm-center">
+				<li class="col-lg-2 col-12 mx-auto text-center py-4">
+					<img src="http://game.gtimg.cn/images/yxzj/web201706/images/comm/logo.png" />
+				</li>
+				<li class="btn mx-auto my-3" type="text" id="ssk">
+					<input type="text" class="mr-5" placeholder="搜索......" />
+					<a href="#" class="btn fa fa-search"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!--导航栏-->
+	<div class="navbar navbar-expand-md navbar-light w-100 position-sticky sticky-top wz1">
+
+		<button class="navbar-toggler ml-auto my-2 mr-2 wz2" data-toggle="collapse" data-target="#menu">
+			<!--折叠按钮的图片：bars-->
+			<i class="fa fa-bars"></i>
+		</button>
+
+		<div class="collapse navbar-collapse ds1" id="menu">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item dropdown bg-white">
+					<a href="index.html" class="nav-link px-3 ahome" style="color: #fc5a6d;">介绍</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="Services.html" class="nav-link text-white px-3">英雄</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="match.html" class="nav-link text-white px-3">赛事</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="Geliery.html" class="nav-link text-white px-3">官方</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="Shop.html" class="nav-link text-white px-3">教学</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="Contact.html" class="nav-link text-white px-3">报告</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!--轮播-->
+	<div class="carousel" id="Carousel" data-ride="carousel">
+
+		<!--指示器-->
+		<ol class="carousel-indicators">
+			<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#Carousel" data-slide-to="1"></li>
+			<li data-target="#Carousel" data-slide-to="2"></li>
+		</ol>
+
+		<!--轮播图区域-->
+		<ul class="carousel-inner nav">
+			<li class="carousel-item active">
+				<img class="d-block w-100" src="img/zl/index-banner-001.png" />
+			</li>
+			<li class="carousel-item">
+				<img class="d-block w-100" src="img/zl/index-banner-002.png" />
+			</li>
+			<li class="carousel-item">
+				<img class="d-block w-100" src="img/zl/index-banner-003.png" />
+			</li>
+		</ul>
+	</div>
+
+
+
+	<!--游戏介绍-->
+	<div class="container">
+		<div class="row mt-md-5 mt-sm-2">
+			<div class="col-lg-6 col-12" id="ycyc">
+				<img src="img/zl/index-wzxg.jpg" class="w-100 h-100 fd" />
+			</div>
+			<div class="col-lg-6 col-12">
+				<div class="pl-3">
+					<h1 class="mb-4 d-flex justify-content-sm-center justify-content-lg-start"><span
+							class="sp">游戏</span> 介绍</h1>
+					<p>
+						《王者荣耀》是腾讯第一5V5团队公平竞技手游，国民MOBA手游大作！5V5王者峡谷、公平对战、还原MOBA经典体验；契约之战、五军对决、边境突围等，带来花式作战乐趣！10秒实时跨区匹配，与好友开黑上分，向最强王者进击！多款英雄任凭选择，一血、五杀、超神，实力碾压，收割全场！敌军即将到达战场，王者召唤师快来集结好友，准备团战，就在《王者荣耀》！
+					</p>
+					<p>
+						《王者荣耀》是腾讯官方天美工作室群推出的英雄竞技类手游，作为一款全新的公平竞技MOBA类游戏，《王者荣耀》主张团队荣耀，公平竞技，团队合作等特色，在同类游戏中可谓是独树一帜。
+						作为国民MOBA手游大作，1V1、3V3、5V5等多模式玩法都可随心体验，英雄阵容搭配，团队合作默契，实时跨区匹配，让你沉浸在热血沸腾酣畅淋漓的对战体验中，与好友一起登上最强王者巅峰宝座
+					</p>
+					<div class=" d-flex justify-content-sm-center justify-content-lg-start dis3">
+						<a href="about.html" class="text-center text-white font-weight-bold mt-3  dis">
+							<p>查看更多</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--游戏特色-->
+	<div class="container-fluid">
+		<div class="sdfsdfsd">
+			<div class="row xr1">
+				<div class="col-lg-5 col-0"></div>
+				<div class="col-lg-6 col-12 my-5 py-5 xr2">
+					<h1 class="my-4"><span class="sp"> </span>游戏特色</h1>
+					<div id="xr" class="mt-3">
+						<div class="card">
+							<button class="btn w-100 text-left px-3 xr3" data-toggle="collapse" data-target="#x1">
+								视觉全面升级！王者2.0时代来临！
+								<span class="out"></span>
+							</button>
+						</div>
+						<div class="card-body collapse show" id="x1" data-parent="#xr">
+							全景沉浸式大厅，国风配色、传统饰形、山水云纹，更加具有东方神韵；次世代技术，全面提升画质，呈现超高清峡谷地图。
+						</div>
+
+						<div class="card">
+							<button class="btn w-100 text-left px-3 xr3" data-toggle="collapse" data-target="#x2">
+								团队公平竞技！好玩不坑拼实力！
+								<span class="add"></span>
+							</button>
+						</div>
+						<div class="card-body collapse" id="x2" data-parent="#xr">
+							凭实力carry全场，与团队共赴荣耀。不做英雄养成，不设体力，还你最初的游戏乐趣！
+						</div>
+
+						<div class="card">
+							<button class="btn w-100 text-left px-3 xr3" data-toggle="collapse" data-target="#x3">
+								王者模拟战！策略对抗乐在棋中！
+								<span class="add"></span>
+							</button>
+						</div>
+						<div class="card-body collapse" id="x3" data-parent="#xr">
+							8人为组，下一盘王者棋！不同职业，众多阵营，考验策略博弈，看谁能战到最后？！
+						</div>
+
+						<div class="card">
+							<button class="btn w-100 text-left px-3 xr3" data-toggle="collapse" data-target="#x4">
+								万象天工！共创无限可能！
+								<span class="add"></span>
+							</button>
+						</div>
+						<div class="card-body collapse" id="x4" data-parent="#xr">
+							王者天工编辑器，为开发者和用户提供创造王者玩法的机会，未来有无限可能！
+						</div>
+
+						<div class="card">
+							<button class="btn w-100 text-left px-3 xr3" data-toggle="collapse" data-target="#x5">
+								狄仁杰守护！对局环境持续优化！
+								<span class="add"></span>
+							</button>
+						</div>
+						<div class="card-body collapse" id="x5" data-parent="#xr">
+							匹配机制、信誉积分系统、实时审判系统等对局相关系统持续迭代优化，全方位提升召唤师对局体验。
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+	<script type="text/javascript">
+		$(function () {
+			$('.collapse').on('hidden.bs.collapse', function () {
+				$(this).prev().find('span').prop('class', 'add');
+			})
+			$('.collapse').on('shown.bs.collapse', function () {
+				$(this).prev().find('span').prop('class', 'out');
+			})
+		})
+	</script>
+
+	<!--英雄推荐-->
+	<div class="container sx">
+		<h1 class="my-4 text-center"><span class="sp"></span> 英雄推荐</h1>
+		<div class="row">
+
+			<div class="col-12 col-lg-6 d-flex flex-row mb-4 cos">
+				<img src="img/zl/index-tuijian-001.jpg" class="ws w-50 h-100" />
+				<div class="pl-4 text-white">
+					<h2>狄仁杰</h2>
+					<p>断案大师</p>
+					<p>狄仁杰是一个比较全面的射手，能进能退，输出能力爆炸，合理使用他的控制效果是一个狄仁杰使用者最重要的</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-6 d-flex flex-row mb-4 cos">
+				<img src="img/zl/index-tuijian-002.jpg" class="ws w-50 h-100" />
+				<div class="pl-4 text-white">
+					<h2>妲己</h2>
+					<p>魅惑之狐</p>
+					<p>妲己是一位美少女法师，拥有游戏中少有的稳定控制技能，AOE、单体输出都有很好的作用效果。</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-6 d-flex flex-row mb-4 cos">
+				<div class="pl-4 text-white">
+					<h2>鲁班七号</h2>
+					<p>机关造物</p>
+					<p>鲁班七号是王者荣耀中后期输出能力最强的射手之一，良好的走位和输出位置选取是想玩好鲁班的玩家的必修课。</p>
+				</div>
+				<img src="img/zl/index-tuijian-003.jpg" class="wx w-50 h-100" />
+			</div>
+
+			<div class="col-12 col-lg-6 d-flex flex-row mb-4 cos">
+
+				<div class="pl-4 text-white mr-2">
+					<h2>亚瑟</h2>
+					<p>圣骑之力</p>
+					<p>亚瑟是一个标准的战士，能抗能打，对敌方后排可以造成非常高的威胁。</p>
+				</div>
+				<img src="img/zl/index-tuijian-004.jpg" class="wx w-50 h-100" />
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- 猜你想玩 -->
+	<div class="gh1 py-5">
+		<h1 class="text-white text-center pb-5 m-0">猜你想玩</h1>
+		<div class="container dbtp">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="news-slider" class="owl-carousel">
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_1.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_2.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_3.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_4.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_5.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_6.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_7.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_8.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_9.jpg" alt="" /></a>
+						</div>
+						<div class="post-slide">
+							<a href="#"><img src="img/zl/index_tou_10.jpg" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--尾部黑色-->
+	<div class="container-fluid m1">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-lg-4 col-12 text-white">
+					<h2 class="mt-5 mb-3">
+						<img src="http://game.gtimg.cn/images/yxzj/web201706/images/comm/logo.png" />
+					</h2>
+					<p>
+						《王者荣耀》全部背景故事发生于架空世界“王者大陆”中。相关人物、地理、事件均为艺术创作，并非正史。若因观看王者故事对相关历史人物产生兴趣，建议查阅正史记载。
+					</p>
+				</div>
+				<div class="col-lg-2 col-12">
+					<h2 class="mt-5 mb-3">
+					</h2>
+					<ul>
+						<span class="m3">抵制不良游戏</span>
+						<li class="pb-1"></li>
+						<span class="m3">拒绝盗版游戏</span>
+						<li class="pb-1"></li>
+						<span class="m3">注意自我保护</span>
+						<li class="pb-1"></li>
+						<span class="m3">谨防受骗上当</span>
+						<li class="pb-1"></li>
+						<span class="m3">适度游戏益脑</span>
+						<li class="pb-1"></li>
+						<span class="m3">沉迷游戏伤身</span>
+						<li class="pb-1"></li>
+						<span class="m3">合理安排时间</span>
+						<li class="pb-1"></li>
+						<span class="m3">享受健康生活</span>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-12">
+					<h2 class="mt-5 mb-3">
+					</h2>
+					<ul>
+						<li class="pb-1"></li><span class="m3">工商网监电子标识</span>
+						<li class="pb-1"></li><span class="m3">粤网文[2020]3396-195号</span>
+						<li class="pb-1"></li><span class="m3">（署）网出证（粤）字第054号</span>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-12 mt-5">
+
+					<ul>
+						<li class="pb-2 pr-2 m2"></li>
+						<span class="m3">文网游备字[2016]M-CSG 0059 号 </span>
+						<br />
+						<li class="pb-2 pr-2 m2"></li>
+
+						<span class="m3">新广出审[2017] 6712号 <br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +1800123456788</span>
+						<br />
+
+						<li class="mt-2 pr-2 m2"></li>
+						<span class="m3">ISBN 978-7-7979-8408-9</span>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/owl_carousel.js"></script>
+<script src="js/banner.js" type="text/javascript" charset="UTF-8"></script>
+
+</html>

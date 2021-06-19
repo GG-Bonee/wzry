@@ -1,0 +1,180 @@
+
+ul li{
+	padding: 0px;
+	margin: 0px;
+}
+/*顶部区域*/
+.sp{
+	color: #fc5a6d;
+}
+/*logo区域*/
+.ws{
+	background-image: url(../img/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -16px;
+	padding: 0px;
+}
+.ws div{
+	background-color: rgba(0,0,0,0.5);
+}
+.ws ul{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ws li{
+	list-style: none;
+}
+#ssk input{
+	width: 230px;
+	border: 0px #fc5a6d;
+}
+#ssk{
+	height: 45px;
+	border: 1px solid black;
+	display: inline-block;
+	background-color: white;
+}
+
+#ssk a{
+	border: 1px solid  #fc5a6d;
+	background-color: #fc5a6d;
+	color: white;
+}
+
+#ssk a:hover{
+	background-color: white;
+	color: #fc5a6d;
+}
+/*导航栏*/
+.wz1 ,ul,li{
+	padding: 0px;
+}
+.wz1{
+	background-color: #fc5a6d;	
+}
+.wz1 i{
+	color: #fc5a6d;
+}
+.wz1 .wz2{
+	background-color: white;
+}
+.swa{
+	background-color: #fc5a6d;
+}
+.ahome{
+	background-color: white;
+	color: #fc5a6d;
+}
+.ds1{
+	color: white;
+	background-color: #fc5a6d;
+}
+.wz1 .ds1 ul li a{
+	line-height: 45px;
+	padding: 10px 60px !important;
+	font-size: 18px;
+}
+#menu a:hover{
+	display: inline-block;
+	background-color: white;
+	color: #fc5a6d !important;
+	width: 100%;
+	
+}
+
+/*Geliery*/
+.ab1{
+	background-image: url(../img/zl/index-banner-003.png);
+	background-size: cover;
+}
+.ab1 .ab2{
+	color: #fc5a6d;
+	font-size: 50px;
+	
+}
+.ab1 span , .ab3{
+	color: #fc5a6d;
+}
+
+.ab4{
+	font-size: 30px;
+}
+
+
+/*our clients*/
+.gh1{
+	background-color: #fc5a6d;
+}
+.gh1 .dbtp .post-slide{
+	text-align: center;
+}
+.gh1 .dbtp .post-slide .post-img{
+	overflow: hidden;
+}
+.gh1 .dbtp .post-slide .post-img img{
+	width: 100%;
+	height: auto;
+}
+
+/*尾部黑色*/
+.m1{
+	background-color: black;
+}
+.m1 li{
+	list-style: none; 
+}
+.m2{
+	color: #fc5a6d;
+}
+.m3{
+	color: white;
+}
+/*最底部*/
+.wb1{
+	background-color: #fc5a6d;
+}
+
+
+/* 新增 */
+.qweqw{
+	margin-bottom: 50px;
+}
+.sdsda{
+	background-color: #f3f3f3;
+}
+.exp_con{
+	float: left;
+    width: 408px;
+    height: 344px;
+    margin-top: 24px;
+    margin-left: 38px;
+    line-height: 30px;
+	
+}
+.tx {
+    font-size: 16px;
+    color: #6e6d87;
+}
+.refresh {
+    display: block;
+    color: #6e6d87;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: bold;
+}
+.exp_list {
+    width: 100%;
+    height: 162px;
+}
+.exp_list img {
+    display: block;
+    float: left;
+    margin-top: 4px;
+}
+.exp_list div {
+    width: 330px;
+    height: 112px;
+    float: left;
+    margin-left: 7px;
+}

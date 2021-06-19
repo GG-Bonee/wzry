@@ -1,0 +1,196 @@
+
+ul li{
+	padding: 0px;
+	margin: 0px;
+}
+/*顶部区域*/
+.sp{
+	color: #fc5a6d;
+}
+/*logo区域*/
+.ws{
+	background-image: url(../img/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -16px;
+	padding: 0px;
+}
+.ws div{
+	background-color: rgba(0,0,0,0.5);
+}
+.ws ul{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ws li{
+	list-style: none;
+}
+#ssk input{
+	width: 230px;
+	border: 0px #fc5a6d;
+}
+#ssk{
+	height: 45px;
+	border: 1px solid black;
+	display: inline-block;
+	background-color: white;
+}
+
+#ssk a{
+	border: 1px solid  #fc5a6d;
+	background-color: #fc5a6d;
+	color: white;
+}
+
+#ssk a:hover{
+	background-color: white;
+	color: #fc5a6d;
+}
+/*导航栏*/
+.wz1 ,ul,li{
+	padding: 0px;
+}
+.wz1{
+	background-color: #fc5a6d;	
+}
+.wz1 i{
+	color: #fc5a6d;
+}
+.wz1 .wz2{
+	background-color: white;
+}
+.swa{
+	background-color: #fc5a6d;
+}
+.ahome{
+	background-color: white;
+	color: #fc5a6d;
+}
+.ds1{
+	color: white;
+	background-color: #fc5a6d;
+}
+.wz1 .ds1 ul li a{
+	line-height: 45px;
+	padding: 10px 60px !important;
+	font-size: 18px;
+}
+#menu a:hover{
+	display: inline-block;
+	background-color: white;
+	color: #fc5a6d !important;
+	width: 100%;
+}
+
+/*Contact*/
+.ab1{
+	background-image: url(../img/choose_bg.jpg);
+	background-size: cover;
+}
+.ab1 .ab2{
+	color: #fc5a6d;
+	font-size: 50px;
+	
+}
+.ab1 span , .ab3{
+	color: #fc5a6d;
+}
+
+.ab4{
+	font-size: 30px;
+}
+
+
+/* 中部三个框 */
+.zbkk span{
+	color: #fc5a6d  !important;
+}
+.zbkk .zbk1 .zbk11{
+	border: 2px solid #fc5a6d; 
+}
+.zbkk .zbk1 .zbk11:hover{
+	background-color: #fc5a6d;
+	color: white !important;
+	transition: all 0.5s ease 0s; 
+}
+.zbkk .zbk1 :hover span{
+	color: white !important;
+}
+
+
+
+
+/* 地图行 */
+.iw_poi_title {
+	color: #CC5522;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	padding-right: 13px;
+	white-space: nowrap
+}
+
+.iw_poi_content {
+	font: 12px arial, sans-serif;
+	overflow: visible;
+	padding-top: 4px;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word
+}
+.dt #dituContent{
+	border:#ccc solid 1px;
+}
+.dt .dtimg{
+	padding: 0px;
+	height: auto;
+}
+.dt .dty{
+	background-color: #fc5a6d;
+}
+.dt .dty .dtinput1{
+	width: 44%;
+	height: 50px;
+	margin-right: 9.5%;
+}
+.dt .dty .dtinput{
+	width: 44%;
+	height: 50px;
+}
+.dt .dty h3{
+	color: white;
+}
+.dt .dty .dttex{
+	width: 98%;
+	height: 130px;
+}
+.dt .dty button{
+	color: white;
+	background-color: #fc5a6d;
+	border: 1px solid white;
+}
+.dt .dty button:hover{
+	color: #fc5a6d;
+	background-color: white;
+	transition: all 0.5s ease 0s; 
+}
+
+
+
+
+/*尾部黑色*/
+.m1{
+	background-color: black;
+}
+.m1 li{
+	list-style: none; 
+}
+.m2{
+	color: #fc5a6d;
+}
+.m3{
+	color: white;
+}
+/*最底部*/
+.wb1{
+	background-color: #fc5a6d;
+}
